@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
- *  *  * main - Entry point
- *   /    eurn: Always 0 (Success)
- *    */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	                puts("\"Programming is like building a multilingual puzzle");
-			                        return (0);
+ /* This program prints a message using the puts function. */
+ puts("Programming is like building a multilingual puzzle");
+ return (0);
 }
+
