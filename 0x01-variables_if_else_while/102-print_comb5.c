@@ -11,6 +11,8 @@ int main(void)
 	{
 	for (b = a; b <= 99; b++)
 	{
+	if (a != b || (a == 0 && b == 0))
+	{
 	putchar('0' + (a / 10));
 	putchar('0' + (a % 10));
 	putchar(' ');
@@ -21,6 +23,7 @@ int main(void)
 	{
 	putchar (',');
 	putchar (' ');
+	}
 	}
 	}
 	}
