@@ -1,10 +1,11 @@
 #include <unistd.h>
 
+
 /**
  * _putchar - Writes a character to the standard outout (stdout)
  * @c: character in focus
  * Return: Success 1
- * If there's error, -1 is returned, and eerrno is set properly
+ * If there's error, -1 is returned
  */
 int _putchar(char c)
 {
