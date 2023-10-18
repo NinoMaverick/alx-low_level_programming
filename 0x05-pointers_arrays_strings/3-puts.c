@@ -2,7 +2,7 @@
 
 /**
  * _puts - function that prints a string, followed by new line
- * @param str - String in question
+ * @str: string in question
  * Return: Always 0
  */
 
