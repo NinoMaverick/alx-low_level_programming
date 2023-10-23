@@ -3,16 +3,20 @@
 /**
  * puts_half - function that prints half of a string
  * @str : function type
- * @n : midpoint of string
  * Return : Always (0)
  */
 void puts_half(char *str)
 {
 	int a;
 	int length = 0;
-	int n = (length - 1) / 2;
+	int n;
 
-	for (a = n; a < length; a++)
+	for (a = 0; str[a] != '\0'; a++)
+		length++;
+
+	n = (length - 1) / 2;
+
+	for (a = n + 1; str[a] != '\0'; a++)
 	{
 		_putchar(str[a]);
 	}
