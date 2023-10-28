@@ -3,7 +3,7 @@
 /**
  * main - prints the number of arguments passed into it
  * @argc: argument count
- * @argv: argument vector
+ * @envp: enveloping variable
  * Return: 0
  */
 int main(int argc, __attribute__((unused)) char *envp[])
