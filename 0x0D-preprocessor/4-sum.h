@@ -1,10 +1,6 @@
-#include <stdio.h>
+#ifndef SUM_H
+#define SUM_H
 
-int main() {
-    int num1 = 6;
-    int num2 = 3;
-    int sum = SUM(num1, num2);
+#define SUM(x, y) ((x) + (y))
 
-    printf("The sum of %d and %d is %d\n", num1, num2, sum);
-    return 0;
-}
+#endif /* SUM_H *
