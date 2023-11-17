@@ -2,10 +2,9 @@
 
 /**
  * sum_them_all - adds all the numbers
- * @n: the number of parameters passed
+ * @n: the number of va_start(ap, n);
  * Return: Always 0
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 	int sum;
@@ -23,4 +22,5 @@ int sum_them_all(const unsigned int n, ...)
 	va_end(ap);
 
 	return (sum);
+
 }
